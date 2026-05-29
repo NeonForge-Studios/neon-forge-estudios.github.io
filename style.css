@@ -2040,3 +2040,91 @@ body.dark-mode::before{
 
 }
 
+/* =========================
+   FIX RESPONSIVE FINAL
+========================= */
+
+@media (max-width: 768px) {
+
+  /* HERO */
+  .hero{
+    background-attachment: scroll !important;
+    padding: 60px 15px;
+  }
+
+  .hero-title{
+    font-size: 2.5rem !important;
+    letter-spacing: 1px;
+  }
+
+  .hero-subtitle{
+    font-size: 1rem !important;
+  }
+
+  .hero-buttons{
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* SECCIONES */
+  section{
+    padding: 70px 15px !important;
+  }
+
+  .section-title h2{
+    font-size: 1.8rem !important;
+  }
+
+  /* CARDS */
+  .custom-card{
+    padding: 18px !important;
+    border-radius: 18px;
+  }
+
+  /* TEXTO GENERAL */
+  p{
+    font-size: 0.95rem !important;
+  }
+
+  /* TIMELINE */
+  .timeline::after{
+    left: 20px !important;
+  }
+
+  .timeline-item{
+    width: 100% !important;
+    padding-left: 60px !important;
+  }
+
+  .right{
+    left: 0 !important;
+  }
+
+  /* VIDEO */
+  .video-container{
+    width: 100% !important;
+  }
+
+  /* FINAL BOX */
+  .final-box h2{
+    font-size: 1.8rem !important;
+  }
+
+}
+
+/* CELULAR PEQUEÑO */
+@media (max-width: 480px) {
+
+  .hero-title{
+    font-size: 2rem !important;
+  }
+
+  .section-title h2{
+    font-size: 1.5rem !important;
+  }
+
+  .custom-card i{
+    font-size: 2rem !important;
+  }
+
+}
