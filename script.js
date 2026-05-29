@@ -192,7 +192,7 @@ function cerrarImagen(){
 
 /* TEXTO ESCRIBIENDO */
 
-const text1 = “Tu Voz Importa: Alto al Bullying”;
+const text1 = "Tu Voz Importa: Alto al Bullying";
 let index1 = 0;
 
 function iniciarTypewriter1() {
